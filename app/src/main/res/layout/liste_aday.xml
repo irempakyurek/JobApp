@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:layout_constraintCircleRadius="5dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvAdayAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/tvAdaySoyadi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:layout_below="@id/tvAdayAdi"
+            />
+
+        <TextView
+            android:id="@+id/tvAdayCepTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:layout_below="@id/tvAdaySoyadi"
+            />
+        <TextView
+            android:id="@+id/tvAdayMezunOkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:layout_below="@id/tvAdayCepTel"/>
+        <TextView
+            android:id="@+id/tvOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="&#8942;"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
